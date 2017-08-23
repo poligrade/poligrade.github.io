@@ -1,0 +1,246 @@
+
+.content{
+    background-color: #fff;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+}
+.navbar{
+    overflow:hidden;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar a{
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    color: black;
+    padding: 1.5% 2%;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+.main{
+    margin-top: 15%;
+    text-align: center;
+    font-size: 110px;
+    height: 100%;
+    font-weight: 100;
+    
+}
+.title{
+    margin 0;
+    padding-bottom: 0px;
+    
+}
+.links a{
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 1.5% 2%;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    color: black;
+    
+    
+}
+.title2{
+   
+    text-align: center;
+    font-size: 90px;
+    font-weight: 100; 
+    margin-bottom: 40px
+}
+.main2{
+    text-align: center;
+    height: 100%;
+    font-size: 30px;
+    
+    
+}
+#what{
+    height: 40px;
+}
+#why{
+    height: 40px;
+}
+#contact{
+    height: 40px;
+}
+.what1, .what2, .what3{
+    padding-bottom: 0%;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    
+}
+#l1, #l2{
+    display: block;
+    margin: auto;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    padding-top: 0xp;
+    margin-top: 10px;
+    width: 80%;
+    height: 10%;
+}
+.pd{
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.title3{
+    padding-left: 25%;
+}
+#lat{
+    width: 75%;
+    height: 20%;
+    
+   
+}
+.main3{
+    height: 100%;
+    padding-top: 3%;
+}
+#arrow{
+    padding-left: 75%;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.trad_polls{
+    float: left;
+    width: 43%;
+    margin-left: 30px;
+    font-size: 30px;
+}
+.our_poll{
+    padding-right: 30px;
+    width: 43%;
+    float: right;
+    font-size: 30px;
+}
+
+.trad_polls, .our_poll{
+ 
+}
+.chart_title{
+    font-size: 50px;
+    border-bottom: 1px solid black;
+}
+#chart_heading{
+    font-size: 95px;
+}
+#lat_title{
+   text-align: center;
+    font-size: 90px;
+    font-weight: 100; 
+  
+}
+#lat_img{
+    width:90%;
+    height:60%;
+}
+.main4{
+    height: 90%;
+    font-size: 30px;
+    text-align: center;
+}
+#lat_explain{
+    width: 95%;
+    padding-left: 3%;
+}
+#contact_title{
+     text-align: center;
+    font-size: 90px;
+    font-weight: 100;
+    text-align: center;
+}
+.contact{
+    height: 95%;
+    width:100%;
+    margin: auto;
+}
+#hugo, #liam, #robert, #daniel{
+    width: 200px;
+    height: 150px;
+}
+.hugo{
+    width: 50%;
+    
+}
+.hugo img{
+    float: left;
+}
+.contact_info{
+    float: left;
+    margin-left: 30px;
+}
+.contact_titles{
+    float: left;
+    margin-left: 30px;
+}
+.hugo_t, .liam_t, .robert_t, .daniel_t{
+    font-size: 25px;
+    padding-top: 35px;
+    
+}
+.hugo_t{
+    margin-top: 15px;
+}
+.liam_t, .robert_t, .daniel_t{
+    margin-top: 50px;
+}
+.robert_t, .daniel_t{
+    margin-top: 65px;
+}
+.contact_divider{
+    
+    
+}
+.contact_form{
+    margin-left: 25px;
+    padding-left: 25px;
+    float: left;
+    text-align: center;
+    width: 40%;
+    font-size: 40px;
+    margin-top:60px;
+}
+.tb{
+    height: 50px;
+    font-size: 25px;
+    border: 2px solid black;
+     margin-top: 10px;
+    width: 60%;
+    text-align: center;
+}
+::placeholder{
+    text-align: center;
+    color: grey;
+    font-weight: 100;
+    font-size: 25px;
+   
+}
+#contact_mes{
+    height: 100px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+

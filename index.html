@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id = "home">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | FeedScore</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+    
+
+</head>
+<body>
+   <div class = "content" >
+      <div class = "navbar">
+       <a href = "login.html">Login</a>
+        <a href = "#top">Home</a>
+    </div>
+<div class = "main">
+       <div class = "title">
+         FEEDSCORE  
+       </div>
+        
+    <div class = "links">
+        <a href = "#what">What</a>
+        <a href = "#why">Why</a>
+        <a href = "#contact">Contact</a>
+    </div>
+    
+</div>
+<div id = "what"></div>
+<div class = "main2">
+    <div class = "title2" >
+        POLLING<span class = "pd">.</span> REDEFINED<span class = "pd">.</span>
+    </div>  
+    <div class = "what1">
+        We collect massive amounts of twitter and facebook content about your issue.
+        <img id = "l1" src = "line.png">
+    </div>  
+    <div class = "what2">
+        Our proprietary sentiment analysis program analyzes these posts, instantly finding out what the public is saying about the issue.
+        <img id = "l2" src = "line.png">
+    </div>
+    <div class = "what3">
+        We display the results in a clean, user-friendly interface. 
+    </div>
+</div>
+  <div id ="why">
+      
+  </div> 
+   <div class = "main3">
+       <div class = "title2" id = "chart_heading">
+        POLLING NEEDS TO CHANGE<span class = "pd">.</span>
+    </div>  
+    <span class = "trad_polls">
+    <span class = "chart_title">TRADITIONAL POLLS</span>
+     <ul>
+         <li>Only call landlines (no cell phones)</li>
+         <li>90% of phone polls don't actually result in a valid interview (source)</li>
+         <li>3rd party and Trump voters were noticiably less comfortable responding to phone/in-person polls (source)</li>
+         <li>Cost thousands of dollars</li>
+         <li>Take weeks to conduct</li>
+         <li>Often inaccurate</li>
+     </ul>   
+        
+    </span>  
+    <span class = "our_poll">
+        <span class = "chart_title">SOCIAL MEDIA ANALYSIS</span>
+       <ul>
+           <li>Americans now spend 1/3 of their time on social media (source)</li>
+           <li>84% of americans are more comfortable discussing civic issues on social media than in person</li>
+           <li>
+               Instant
+           </li>
+           <li>A fraction of the cost</li>
+       </ul>
+        
+    </span>
+    
+       
+   </div>
+   <div class = "main4" >
+      <div id = "lat_title">THE PROOF</div>
+      Current polling methods are outdated and unreliable.<br>In 2016, only the LA Times correctly predicted the presidential election’s outcome.
+       <img src = "lat_info.png" id = "lat_img">
+       <div id = "lat_explain">
+        The LA Times used the internet presence of voters in order to accurately predict the election result. <br> FeedScore improves this proven concept using our proprietary algorithm in order to poll faster, cheaper, and more accurately than ever before.   
+       </div>
+       
+   </div>
+   <div id = "contact">
+       
+   </div>
+    <div class = "contact">
+        <div id = "contact_title">CONTACT</div> 
+        <div class = "contact_divider">
+          <div class = "contact_info">
+            <div class = "Hugo">
+                <img src = "hugo.jpg" id = "hugo">   
+            </div>
+            <div class = "Liam" >
+              <img src = "liam.jpg" id = 'liam'>  
+            </div>
+            <div class = "Robert">
+               <img src = "robert.jpg" id = 'robert'>  
+            </div>
+            <div class = "Daniel">
+               <img src = "daniel.jpg" id = 'daniel'>  
+            </div>
+        </div>
+        <div class = "contact_titles">
+            <div class = "hugo_t">
+              Hugo Burbelo <br>
+                Project Manager & Full-Stack Engineer  
+            </div>
+            <div class = "liam_t">
+               Liam Rathke <br>
+               Design and Strategy Lead 
+            </div>
+            <div class = "robert_t">
+               Robert West <br>
+                Backend Engineer
+            </div>
+            <div class = "daniel_t">
+                Daniel Walsh <br>
+                Research and Partnerships Lead
+            </div>
+        </div>  
+        </div>
+        
+        <div class = "contact_form">
+            Contact us here to sign up:
+            <form>
+                <input type = "text" placeholder= "Name" class = "tb"><br>
+                <input type = "text" placeholder="Organization" class = "tb"><br>
+                <input type = "text" placeholder="Email" class = "tb"><br>
+                <input type = "text" placeholder = "Message (optional)" class = "tb" id = "contact_mes"><br >
+                <input type = "submit" id ="sub_cf">
+            </form>
+        </div>
+    </div>
+</div>
+    
+</body>
+</html>
+<link rel="stylesheet" href="style.css">
+<style>
+    
+</style>
+<script>
+    // Select all links with hashes
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+</script>
